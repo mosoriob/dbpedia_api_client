@@ -1,6 +1,6 @@
 # dbpedia.NuclearPowerStationApi
 
-All URIs are relative to *https://dbpedia.mosorio.me/v0.0.1*
+All URIs are relative to *https://dbpedia.mosorio.dev/v0.0.1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -23,10 +23,10 @@ import time
 import dbpedia
 from dbpedia.rest import ApiException
 from pprint import pprint
-# Defining the host is optional and defaults to https://dbpedia.mosorio.me/v0.0.1
+# Defining the host is optional and defaults to https://dbpedia.mosorio.dev/v0.0.1
 # See configuration.py for a list of all supported configuration parameters.
 configuration = dbpedia.Configuration(
-    host = "https://dbpedia.mosorio.me/v0.0.1"
+    host = "https://dbpedia.mosorio.dev/v0.0.1"
 )
 
 
@@ -89,10 +89,10 @@ import time
 import dbpedia
 from dbpedia.rest import ApiException
 from pprint import pprint
-# Defining the host is optional and defaults to https://dbpedia.mosorio.me/v0.0.1
+# Defining the host is optional and defaults to https://dbpedia.mosorio.dev/v0.0.1
 # See configuration.py for a list of all supported configuration parameters.
 configuration = dbpedia.Configuration(
-    host = "https://dbpedia.mosorio.me/v0.0.1"
+    host = "https://dbpedia.mosorio.dev/v0.0.1"
 )
 
 

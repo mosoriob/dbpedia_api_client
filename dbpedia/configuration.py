@@ -55,7 +55,7 @@ class Configuration(object):
 
     _default = None
 
-    def __init__(self, host="https://dbpedia.mosorio.me/v0.0.1",
+    def __init__(self, host="https://dbpedia.mosorio.dev/v0.0.1",
                  api_key=None, api_key_prefix=None,
                  username=None, password=None,
                  discard_unknown_keys=False,
@@ -347,7 +347,7 @@ class Configuration(object):
         """
         return [
             {
-                'url': "https://dbpedia.mosorio.me/v0.0.1",
+                'url': "https://dbpedia.mosorio.dev/v0.0.1",
                 'description': "No description provided",
             },
             {

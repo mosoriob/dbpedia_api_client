@@ -17,9 +17,9 @@ Python 2.7 and 3.4+
 If the python package is hosted on a repository, you can install directly using:
 
 ```sh
-pip install git+https://github.com/mintproject/model-catalog-python-api-client.git
+pip install git+https://github.com/sirspock/dbpedia.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/mintproject/model-catalog-python-api-client.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/sirspock/dbpedia.git`)
 
 Then import the package:
 ```python
@@ -52,10 +52,10 @@ import dbpedia
 from dbpedia.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://dbpedia.mosorio.me/v0.0.1
+# Defining the host is optional and defaults to https://dbpedia.mosorio.dev/v0.0.1
 # See configuration.py for a list of all supported configuration parameters.
 configuration = dbpedia.Configuration(
-    host = "https://dbpedia.mosorio.me/v0.0.1"
+    host = "https://dbpedia.mosorio.dev/v0.0.1"
 )
 
 
@@ -79,7 +79,7 @@ per_page = 100 # int | Items per page (optional) (default to 100)
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://dbpedia.mosorio.me/v0.0.1*
+All URIs are relative to *https://dbpedia.mosorio.dev/v0.0.1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
