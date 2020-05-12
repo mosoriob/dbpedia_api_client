@@ -65,8 +65,8 @@ with dbpedia.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = dbpedia.AbbeyApi(api_client)
     label = 'label_example' # str | Filter by label (optional)
-page = 1 # int | Page number (optional) (default to 1)
-per_page = 100 # int | Items per page (optional) (default to 100)
+    page = 1 # int | Page number (optional) (default to 1)
+    per_page = 100 # int | Items per page (optional) (default to 100)
 
     try:
         # List all instances of Abbey
