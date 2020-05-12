@@ -2,6 +2,6 @@
     "packageName": "dbpedia",
     "projectName": "dbpedia-api",
     "modelPropertyNaming": "camelCase",
-    "packageVersion": "0.0.1",
+    "packageVersion": "0.0.2",
     "packageUrl": "https://pypi.org/project/dbpedia-api/" 
 }
