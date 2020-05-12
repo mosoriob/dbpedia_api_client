@@ -1,0 +1,56 @@
+# SpaceMission
+
+Description not available
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**launch_vehicle** | **list[object]** | Description not available | [optional] 
+**lunar_landing_site** | **list[str]** | Description not available | [optional] 
+**spacewalk_begin** | **list[str]** | Description not available | [optional] 
+**lunar_orbit_time** | **list[object]** | Description not available | [optional] 
+**number_of_orbits** | **list[int]** | Description not available | [optional] 
+**number_of_people_attending** | **list[int]** | Description not available | [optional] 
+**end_date** | **list[str]** | The end date of the event. | [optional] 
+**lunar_eva_time** | **list[object]** | Description not available | [optional] 
+**mass** | **list[object]** | Description not available | [optional] 
+**next_mission** | **list[object]** | Description not available | [optional] 
+**landing_vehicle** | **list[object]** | Description not available | [optional] 
+**description** | **list[str]** | small description | [optional] 
+**launch_date** | **list[str]** | Description not available | [optional] 
+**launch_site** | **list[object]** | Description not available | [optional] 
+**cmp_eva_duration** | **list[object]** | Description not available | [optional] 
+**type** | **list[str]** | type of the resource | [optional] 
+**service_module** | **list[str]** | Description not available | [optional] 
+**participant** | **list[str]** | Description not available | [optional] 
+**booster** | **list[object]** | Description not available | [optional] 
+**duration** | **list[float]** | The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format | [optional] 
+**spacecraft** | **list[object]** | Description not available | [optional] 
+**previous_event** | **list[object]** | Description not available | [optional] 
+**orbital_inclination** | **list[float]** | Description not available | [optional] 
+**id** | **str** | identifier | [optional] 
+**following_event** | **list[object]** | Description not available | [optional] 
+**distance_traveled** | **list[object]** | Description not available | [optional] 
+**landing_site** | **list[str]** | Description not available | [optional] 
+**spacewalk_end** | **list[str]** | Description not available | [optional] 
+**launch_pad** | **list[object]** | Description not available | [optional] 
+**station_visit_duration** | **list[object]** | Description not available | [optional] 
+**caused_by** | **list[object]** | Description not available | [optional] 
+**crew_size** | **list[int]** | Description not available | [optional] 
+**station_eva_duration** | **list[object]** | Description not available | [optional] 
+**label** | **list[str]** | short description of the resource | [optional] 
+**lunar_sample_mass** | **list[object]** | Description not available | [optional] 
+**lunar_surface_time** | **list[object]** | Description not available | [optional] 
+**lunar_rover** | **list[object]** | Description not available | [optional] 
+**command_module** | **list[str]** | Description not available | [optional] 
+**shuttle** | **list[object]** | Description not available | [optional] 
+**previous_mission** | **list[object]** | Description not available | [optional] 
+**mission_duration** | **list[object]** | Description not available | [optional] 
+**crew_member** | **list[object]** | Description not available | [optional] 
+**next_event** | **list[object]** | Description not available | [optional] 
+**landing_date** | **list[str]** | Description not available | [optional] 
+**lunar_module** | **list[str]** | Description not available | [optional] 
+**start_date** | **list[str]** | The start date of the event. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
